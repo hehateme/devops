@@ -9,7 +9,8 @@ export affinityGroupLocation="East US"
 export storageAccount=rajhdpstorage
 
 #Name of the image you will use to create your virtual machines
-export imageName=b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu_DAILY_BUILD-precise-12_04_3-LTS-amd64-server-20140204-en-us-30GB
+#export imageName=b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu_DAILY_BUILD-precise-12_04_3-LTS-amd64-server-20140204-en-us-30GB
+export imageName=c290a6b031d841e09f2da759bbabe71f__Oracle-Linux-6
 
 #Size of the Virtual machine. Valid sizes are extrasmall, small, medium, large, extralarge, a5, a6, a7
 export instanceSize=small
@@ -23,7 +24,7 @@ export numOfDisks=1
 export vmNamePrefix=rajbdhdp
 export cloudServicePrefix=rajbdhdp
 #user name and password for the virtual machine you are creating
-export adminUserName=rajsingh
+export adminUserName=azureuser
 export adminPassword=Password.1!
 
 #setting related to virtual network
