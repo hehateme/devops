@@ -23,8 +23,9 @@ export numOfDisks=1
 #virtual machine settings
 export vmNamePrefix=yourbdhdp
 export cloudServicePrefix=yourbdhdp
-#user name and password for the virtual machine you are creating
+#user admin name and password for the virtual machine you are creating
 export adminUserName=azureuser
+#Azure CLI enforces strong passwords uppercase, lower case and special characters
 export adminPassword=Password.1!
 
 #setting related to virtual network
